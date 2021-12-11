@@ -43,7 +43,7 @@ tail -n5 file1.txt
 19) View the contents of a long file: `less file1.txt`
 20) Display date and time: `date`
 ---
-##### Task 1* Send an HTTP request to the server: http://162.55.220.72:5005/terminal-hw-request:
+##### Task 1* Send an HTTP request to the server: http://162.55.220.72:5005/terminal-hw-request
 ```
 curl 'http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000'
 curl -v 'http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000' - (make the operation more talkative)
